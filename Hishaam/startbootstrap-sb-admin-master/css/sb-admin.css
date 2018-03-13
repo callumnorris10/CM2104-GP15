@@ -14,7 +14,7 @@ body.sticky-footer {
 body.sticky-footer .content-wrapper {
   min-height: calc(100vh - 56px - 56px);
 }
-
+/*top nav bar size */
 body.fixed-nav {
   padding-top: 56px;
 }
@@ -38,7 +38,7 @@ body.fixed-nav {
 }
 
 .scroll-to-top:focus, .scroll-to-top:hover {
-  color: #343a40;
+  color: ##7BBBAA;
 }
 
 .scroll-to-top:hover {
@@ -339,7 +339,7 @@ body.sidenav-toggled .navbar-sidenav-tooltip.show {
 }
 
 #mainNav.navbar-dark .navbar-collapse .navbar-sidenav > .nav-item > .nav-link:hover {
-  color: #adb5bd;
+  color: #343A40;
 }
 
 #mainNav.navbar-dark .navbar-collapse .navbar-sidenav > .nav-item .sidenav-second-level > li > a,
@@ -350,16 +350,16 @@ body.sidenav-toggled .navbar-sidenav-tooltip.show {
 #mainNav.navbar-dark .navbar-collapse .navbar-sidenav > .nav-item .sidenav-second-level > li > a:focus, #mainNav.navbar-dark .navbar-collapse .navbar-sidenav > .nav-item .sidenav-second-level > li > a:hover,
 #mainNav.navbar-dark .navbar-collapse .navbar-sidenav > .nav-item .sidenav-third-level > li > a:focus,
 #mainNav.navbar-dark .navbar-collapse .navbar-sidenav > .nav-item .sidenav-third-level > li > a:hover {
-  color: #adb5bd;
+  color: #343A40;
 }
 
 #mainNav.navbar-dark .navbar-collapse .navbar-nav > .nav-item.dropdown > .nav-link:after {
-  color: #adb5bd;
+  color: #343A40;
 }
 
 @media (min-width: 992px) {
   #mainNav.navbar-dark .navbar-collapse .navbar-sidenav {
-    background: #343a40;
+    background: #7BBBAA;
   }
   #mainNav.navbar-dark .navbar-collapse .navbar-sidenav li.active a {
     color: white !important;
@@ -370,7 +370,7 @@ body.sidenav-toggled .navbar-sidenav-tooltip.show {
   }
   #mainNav.navbar-dark .navbar-collapse .navbar-sidenav > .nav-item .sidenav-second-level,
   #mainNav.navbar-dark .navbar-collapse .navbar-sidenav > .nav-item .sidenav-third-level {
-    background: #343a40;
+    background: #7BBBAA;
   }
 }
 
